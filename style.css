@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130vh;
+  margin: 0;
+  background-image: url(08s.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 5px;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  background-color: #f5f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0826e9;
+  font-size: 20px;
+}
+
+.input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 75px;
+  color: antiquewhite;
+  text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0px;
+}
+
+.cell {
+  border: 1px solid black;
+  /* добавляем границу для ячеек */
+}
+
+.cell input {
+  width: 100%;
+  /* чтобы ввод был выровнен внутри ячейки */
+  height: 100%;
+  border: none;
+  /* убираем границу у input */
+  box-sizing: border-box;
+  /* чтобы размер input включал границы и отступы */
+}
+
+.cell:nth-child(odd) {
+  background-color: lightblue;
+  /* меняем цвет фона для нечетных ячеек */
+}
+
+.cell:nth-child(even) {
+  background-color: lightgreen;
+  /* меняем цвет фона для четных ячеек */
+}
+
+
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-color: #0826e9;
+  border-radius: 50px;
+  background-color: #0826e9;
+  margin-left: 85px;
+}
+
+#result {
+  margin-top: 30px;
+  font-size: 68px;
+  font-weight: bold;
+}
