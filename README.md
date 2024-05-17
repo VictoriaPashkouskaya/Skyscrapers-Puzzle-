@@ -15,8 +15,6 @@ A skyscraper is visible if there are no taller skyscrapers in front of it blocki
 Example:
 Consider a 4x4 grid with skyscrapers of heights 1 to 4.
 
-lua
-Copiar código
      2 1 3 2
    +--------+
  1 |        | 3
