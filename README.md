@@ -15,15 +15,7 @@ A skyscraper is visible if there are no taller skyscrapers in front of it blocki
 Example:
 Consider a 4x4 grid with skyscrapers of heights 1 to 4.
 
-     2 1 3 2
-   +--------+
- 1 |        | 3
- 3 |        | 1
- 2 |        | 3
- 2 |        | 2
-   +--------+
-     3 2 2 1
-In this example:
+ 
 
 The number 2 on the top row, first column, indicates that 2 skyscrapers will be visible from the top when looking down that column.
 The number 3 on the leftmost column, first row, indicates that 3 skyscrapers will be visible from the left when looking across that row.
