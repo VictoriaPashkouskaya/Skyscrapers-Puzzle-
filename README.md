@@ -14,8 +14,8 @@ Numbers on the edges of the grid (top, bottom, left, right) indicate how many sk
 A skyscraper is visible if there are no taller skyscrapers in front of it blocking the view.
 Example:
 Consider a 4x4 grid with skyscrapers of heights 1 to 4.
-[!https://github.com/VictoriaPashkouskaya/VictoriaPashkouskaya/blob/main/Imagen%20pegada.png]
- 
+[![Изображение](https://github.com/VictoriaPashkouskaya/VictoriaPashkouskaya/blob/main/Imagen%20pegada.png)](https://github.com/VictoriaPashkouskaya/VictoriaPashkouskaya/blob/main/Imagen%20pegada.png)
+
 
 The number 2 on the top row, first column, indicates that 2 skyscrapers will be visible from the top when looking down that column.
 The number 3 on the leftmost column, first row, indicates that 3 skyscrapers will be visible from the left when looking across that row.
